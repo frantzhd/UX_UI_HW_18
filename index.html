@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="css/style.css"type="text/css" rel="stylesheet">
+    <link href="css/index.css"type="text/css" rel="stylesheet">
 </head>
 <body>
     <header class="navigation">
@@ -22,11 +22,11 @@
             </nav>
         </div>
     </header>
-    <section class="heroImg">
-        <div class="content">
+    <section class="hero">
+        <div class="portrait">
             <img src="images/portrait_home.jpg" alt="portrait" width="300" height="300">
         </div>
-        <div class="information">
+        <div class="bio">
             <p>Hello there, I’m Frantz Drouillard!<br>
                 I’m a UX/UI designer with a background in graphic design. 
                 I have translated my visual communication problem solving skills 
@@ -35,11 +35,93 @@
                 and that’s due to my flexibility and adaptability. 
                 I’m a team player who’s always willing, ready, and able to learn more.
         </div>
-        <div class="">
-            
+    </section>
+ <!--  My UX Skills section coded using CSS flex -->
+    <section class="mySkills">
+        <h1>My UX Skills</h1>
+        <div class="flexContainer">
+            <div>
+              <img src="images/research.jpg" alt="research" width="80px" height="70px">
+              <h3>User Research</h3>  
+              <p>When conducting user research I think of a question relating 
+                to the subject matter. Like , “What are a users motivations for 
+                why they engage with something or continue with a particular behavior  
+            </p>
+            </div>
+
+            <div>
+                <img src="images/empathy.jpeg" alt="empathy" width="80px" height="70px">
+                <h3>User Empathy</h3>  
+                <p>When it comes to user empathy I like to think of what is the best
+                    interaction/experience they can have. I put myself in their shoes
+                    and wonder what difficulties they can have that would lead to the 
+                    worst experience they can have then I think of what can be improved 
+                    to hopefully avoid the bad experience altogether
+                </p>
+              </div>
+
+              <div>
+                <img src="images/interview.jpg" alt="interview" width="80px" height="70px">
+                <h3>Qualitative Interviews</h3>  
+                <p>Quantitative information is important but I really like qualitative 
+                    information because of the deeper understanding and connection it gives 
+                    us to people who are more than numbers. Like i mentioned before i think 
+                    of what motivates people in their actions and behavior and that shapes the 
+                    questions i create to better understand their thinking process which helps 
+                    me to better understand them. 
+                </p>
+              </div>
 
         </div>
     </section>
+
+    <section class="myWork">
+        <h1>My Work</h1>
+        <div class="workGrid">
+            <div class="item1">
+                <h4>DOL</h4>
+                <p>A redesign for the U.S. Department of Labor website
+                </p>
+                <button>View Project</button>
+            </div>
+            <div class="item2">
+                <img src="images/work_dol.jpg" alt="dolp_review" width="500px" height="290px">
+            </div>
+
+            <div class="item3">
+                <img src="images/work_moodlite.jpg" alt="moodlite_preview" width="500px" height="290px">
+            </div>
+            <div class="item4">
+                <h4>MoodLite</h4>
+                <p>Moodlite is an app that is meant to help people stabilize their mood through reflection and music 
+                </p>
+                <button>View Project</button>
+            </div>
+            
+            <div class="item5">
+                <h4>FrugalEats</h4>
+                <p>FrugalEats is an app designed to help users find photo friendly restaurants and budget their spending on dining</p>
+                <button></button>
+            </div>
+            <div class="item6">
+                <img src="images/work_frugal.jpg" alt="frugaleats_preview" width="500px" height="290px">
+            </div>
+
+            <div class="item7">
+                <img src="images/work_350bk.jpg" alt="350BK_preview" width="500px" height="290px">
+            </div>
+            <div class="item8">
+                <h4>350 Brooklyn</h4>
+                <p>A website redesign for a local nonprofit organization focused on climate change </p>
+                <button></button>
+            </div>
+
+
+        </div>
+        <h3> View all projects</h3>
+    
+    </section>
+
     <footer>
         <ul class="footer">
             <li class="footerItem"><a href="">About</a></li>

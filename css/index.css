@@ -43,3 +43,58 @@ color: white;
     text-decoration: none;
     color: white;
 }
+
+.flexContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0% auto;
+    align-items: flex-start;
+    gap: 1em;
+    text-align: left;
+    padding-bottom: 70px;
+}
+
+.hero{
+display: flex;
+padding-left: 50px;
+margin: 0% auto;
+gap: 2em;
+padding-top: 100px;
+padding-bottom: 100px;
+justify-content: flex-start;
+}
+.mySkills{
+padding-left: 50px;
+}
+.mySkills h1{
+    text-align: center;
+}
+.workGrid{
+    display: grid;
+    grid-template-rows:100px 100px ;
+}
+.item1{
+    grid-area: 1 / 1;
+}
+.item2{
+    grid-area: 1 / 2;
+}
+.item3{
+    grid-area: 2 / 1;
+}
+.item4{
+    grid-area: 2 / 2;
+}
+.item5{
+    grid-area: 3 / 1;
+}
+.item6{
+    grid-area: 3 / 2;
+}
+.item7{
+    grid-area: 4 /1;
+}
+.item8{
+    grid-area: 4 / 2;
+}

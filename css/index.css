@@ -72,7 +72,12 @@ padding-left: 50px;
 }
 .workGrid{
     display: grid;
-    grid-template-rows:100px 100px ;
+    grid-template-columns: 0 100px;
+    column-gap: 500px;
+    row-gap: 0px;
+    padding: 40px;
+    margin: 0 auto;
+    align-content: center;
 }
 .item1{
     grid-area: 1 / 1;
@@ -97,4 +102,11 @@ padding-left: 50px;
 }
 .item8{
     grid-area: 4 / 2;
+}
+.myWork{
+    padding-left: 50px;
+    justify-content: center;
+}
+.myWork h1{
+    text-align: center;
 }

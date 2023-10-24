@@ -118,7 +118,7 @@ padding-left: 50px;
     text-align: center;
 }
 
-@media only screen and (max-width: 600){
+@media only screen and (max-width: 600px){
     .flexContainer{
         grid-template-columns: 1fr;
         gap: 1em;
@@ -126,9 +126,56 @@ padding-left: 50px;
     }
 
     .hero{
-    width: 20%;
+    width: auto;
+    flex-direction: column;
 }
-    body{
-        
+    .workGrid{
+    grid-template-columns: 1fr;
+    row-gap: 0px;
+    align-content: center;
     }
+    .item1{
+        grid-area: 1;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+    .item2{
+        grid-area: 2;
+    }
+    .item3{
+        grid-area: 4;
+        padding-bottom: 10px;
+    }
+    .item4{
+        grid-area: 3;
+        text-align: center;
+        padding-bottom: 10px;
+
+    }
+    .item5{
+        grid-area: 5;
+        text-align: center;
+        padding-bottom: 10px;
+
+    }
+    .item6{
+        grid-area:6;
+        padding-bottom: 10px;
+    }
+    .item7{
+        grid-area: 8;
+        padding-bottom: 10px;
+
+    }
+    .item8{
+        grid-area: 7;
+        text-align: center;
+        padding-bottom: 10px;
+}
+.logo{
+    height: 10%;
+    width: 10%;
+    padding-right: auto;
+    text-align: center;
+}
 }

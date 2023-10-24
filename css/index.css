@@ -46,7 +46,7 @@ color: white;
 
 .flexContainer{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
     margin: 0% auto;
     align-items: flex-start;
@@ -72,15 +72,14 @@ padding-left: 50px;
 }
 .workGrid{
     display: grid;
-    grid-template-columns: 0 100px;
-    column-gap: 500px;
+    grid-template-columns: 1fr 1fr;
     row-gap: 0px;
-    padding: 40px;
     margin: 0 auto;
     align-content: center;
 }
 .item1{
     grid-area: 1 / 1;
+    text-align: center;
 }
 .item2{
     grid-area: 1 / 2;
@@ -90,18 +89,26 @@ padding-left: 50px;
 }
 .item4{
     grid-area: 2 / 2;
+    align-content: center;
+    padding-left: 10%;
+    text-align: center;
 }
 .item5{
     grid-area: 3 / 1;
+    text-align: center;
+    padding-right: 10%;
 }
 .item6{
     grid-area: 3 / 2;
 }
 .item7{
-    grid-area: 4 /1;
+    grid-area: 4 / 1;
 }
 .item8{
     grid-area: 4 / 2;
+    align-content: center;
+    padding-left: 10%;
+    text-align: center;
 }
 .myWork{
     padding-left: 50px;
@@ -109,4 +116,19 @@ padding-left: 50px;
 }
 .myWork h1{
     text-align: center;
+}
+
+@media only screen and (max-width: 600){
+    .flexContainer{
+        grid-template-columns: 1fr;
+        gap: 1em;
+        text-align: left;
+    }
+
+    .hero{
+    width: 20%;
+}
+    body{
+        
+    }
 }
